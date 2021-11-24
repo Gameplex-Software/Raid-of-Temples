@@ -1,4 +1,4 @@
 # Raid-of-Temples
 Repository for Raid of Temples by Gameplex (Game in progress)
 
-![preview](https://user-images.githubusercontent.com/34868944/143143775-9d75f818-b140-4d69-a49f-54567f05cfe1.png)
+![render](https://user-images.githubusercontent.com/34868944/143261341-1eaa1a80-1a5e-4446-b17f-255641ed82e2.png)
