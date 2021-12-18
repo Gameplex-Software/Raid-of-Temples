@@ -1,13 +1,13 @@
 //
-//  Raid_Of_Temples_LauncherUITestsLaunchTests.swift
-//  Raid Of Temples LauncherUITests
+//  Raid_of_Temples_LauncherUITestsLaunchTests.swift
+//  Raid of Temples LauncherUITests
 //
-//  Created by Tristan Poland on 12/6/21.
+//  Created by Tristan Poland on 12/18/21.
 //
 
 import XCTest
 
-class Raid_Of_Temples_LauncherUITestsLaunchTests: XCTestCase {
+class Raid_of_Temples_LauncherUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

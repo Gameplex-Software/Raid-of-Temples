@@ -7,62 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBBF9A12275F023F00BD319B /* Raid_Of_Temples_LauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF9A11275F023F00BD319B /* Raid_Of_Temples_LauncherApp.swift */; };
-		CBBF9A14275F023F00BD319B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF9A13275F023F00BD319B /* ContentView.swift */; };
-		CBBF9A16275F024400BD319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBF9A15275F024400BD319B /* Assets.xcassets */; };
-		CBBF9A19275F024400BD319B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBF9A18275F024400BD319B /* Preview Assets.xcassets */; };
-		CBBF9A24275F024500BD319B /* Raid_Of_Temples_LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF9A23275F024500BD319B /* Raid_Of_Temples_LauncherTests.swift */; };
-		CBBF9A2E275F024500BD319B /* Raid_Of_Temples_LauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF9A2D275F024500BD319B /* Raid_Of_Temples_LauncherUITests.swift */; };
-		CBBF9A30275F024500BD319B /* Raid_Of_Temples_LauncherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF9A2F275F024500BD319B /* Raid_Of_Temples_LauncherUITestsLaunchTests.swift */; };
+		CBBAF4C4276E1DC800C131BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAF4C3276E1DC800C131BE /* AppDelegate.swift */; };
+		CBBAF4C6276E1DC800C131BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAF4C5276E1DC800C131BE /* ViewController.swift */; };
+		CBBAF4C8276E1DCB00C131BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBAF4C7276E1DCB00C131BE /* Assets.xcassets */; };
+		CBBAF4CB276E1DCB00C131BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBAF4C9276E1DCB00C131BE /* Main.storyboard */; };
+		CBBAF4D6276E1DCB00C131BE /* Raid_of_Temples_LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAF4D5276E1DCB00C131BE /* Raid_of_Temples_LauncherTests.swift */; };
+		CBBAF4E0276E1DCB00C131BE /* Raid_of_Temples_LauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAF4DF276E1DCB00C131BE /* Raid_of_Temples_LauncherUITests.swift */; };
+		CBBAF4E2276E1DCB00C131BE /* Raid_of_Temples_LauncherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAF4E1276E1DCB00C131BE /* Raid_of_Temples_LauncherUITestsLaunchTests.swift */; };
+		CBBAF4EF276E297800C131BE /* updatescontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAF4EE276E297800C131BE /* updatescontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CBBF9A20275F024500BD319B /* PBXContainerItemProxy */ = {
+		CBBAF4D2276E1DCB00C131BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CBBF9A06275F023F00BD319B /* Project object */;
+			containerPortal = CBBAF4B8276E1DC800C131BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CBBF9A0D275F023F00BD319B;
-			remoteInfo = "Raid Of Temples Launcher";
+			remoteGlobalIDString = CBBAF4BF276E1DC800C131BE;
+			remoteInfo = "Raid of Temples Launcher";
 		};
-		CBBF9A2A275F024500BD319B /* PBXContainerItemProxy */ = {
+		CBBAF4DC276E1DCB00C131BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CBBF9A06275F023F00BD319B /* Project object */;
+			containerPortal = CBBAF4B8276E1DC800C131BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CBBF9A0D275F023F00BD319B;
-			remoteInfo = "Raid Of Temples Launcher";
+			remoteGlobalIDString = CBBAF4BF276E1DC800C131BE;
+			remoteInfo = "Raid of Temples Launcher";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CBBF9A0E275F023F00BD319B /* Raid Of Temples Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raid Of Temples Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBBF9A11275F023F00BD319B /* Raid_Of_Temples_LauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_Of_Temples_LauncherApp.swift; sourceTree = "<group>"; };
-		CBBF9A13275F023F00BD319B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CBBF9A15275F024400BD319B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBBF9A18275F024400BD319B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CBBF9A1A275F024400BD319B /* Raid_Of_Temples_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Raid_Of_Temples_Launcher.entitlements; sourceTree = "<group>"; };
-		CBBF9A1F275F024500BD319B /* Raid Of Temples LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raid Of Temples LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBBF9A23275F024500BD319B /* Raid_Of_Temples_LauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_Of_Temples_LauncherTests.swift; sourceTree = "<group>"; };
-		CBBF9A29275F024500BD319B /* Raid Of Temples LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raid Of Temples LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBBF9A2D275F024500BD319B /* Raid_Of_Temples_LauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_Of_Temples_LauncherUITests.swift; sourceTree = "<group>"; };
-		CBBF9A2F275F024500BD319B /* Raid_Of_Temples_LauncherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_Of_Temples_LauncherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBBAF4C0276E1DC800C131BE /* Raid of Temples Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raid of Temples Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBAF4C3276E1DC800C131BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBBAF4C5276E1DC800C131BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBBAF4C7276E1DCB00C131BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBBAF4CA276E1DCB00C131BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBBAF4CC276E1DCB00C131BE /* Raid_of_Temples_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Raid_of_Temples_Launcher.entitlements; sourceTree = "<group>"; };
+		CBBAF4D1276E1DCB00C131BE /* Raid of Temples LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raid of Temples LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBAF4D5276E1DCB00C131BE /* Raid_of_Temples_LauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_of_Temples_LauncherTests.swift; sourceTree = "<group>"; };
+		CBBAF4DB276E1DCB00C131BE /* Raid of Temples LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raid of Temples LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBAF4DF276E1DCB00C131BE /* Raid_of_Temples_LauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_of_Temples_LauncherUITests.swift; sourceTree = "<group>"; };
+		CBBAF4E1276E1DCB00C131BE /* Raid_of_Temples_LauncherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raid_of_Temples_LauncherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBBAF4EE276E297800C131BE /* updatescontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updatescontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CBBF9A0B275F023F00BD319B /* Frameworks */ = {
+		CBBAF4BD276E1DC800C131BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBF9A1C275F024500BD319B /* Frameworks */ = {
+		CBBAF4CE276E1DCB00C131BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBF9A26275F024500BD319B /* Frameworks */ = {
+		CBBAF4D8276E1DCB00C131BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +74,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CBBF9A05275F023F00BD319B = {
+		CBBAF4B7276E1DC800C131BE = {
 			isa = PBXGroup;
 			children = (
-				CBBF9A10275F023F00BD319B /* Raid Of Temples Launcher */,
-				CBBF9A22275F024500BD319B /* Raid Of Temples LauncherTests */,
-				CBBF9A2C275F024500BD319B /* Raid Of Temples LauncherUITests */,
-				CBBF9A0F275F023F00BD319B /* Products */,
+				CBBAF4C2276E1DC800C131BE /* Raid of Temples Launcher */,
+				CBBAF4D4276E1DCB00C131BE /* Raid of Temples LauncherTests */,
+				CBBAF4DE276E1DCB00C131BE /* Raid of Temples LauncherUITests */,
+				CBBAF4C1276E1DC800C131BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CBBF9A0F275F023F00BD319B /* Products */ = {
+		CBBAF4C1276E1DC800C131BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBBF9A0E275F023F00BD319B /* Raid Of Temples Launcher.app */,
-				CBBF9A1F275F024500BD319B /* Raid Of Temples LauncherTests.xctest */,
-				CBBF9A29275F024500BD319B /* Raid Of Temples LauncherUITests.xctest */,
+				CBBAF4C0276E1DC800C131BE /* Raid of Temples Launcher.app */,
+				CBBAF4D1276E1DCB00C131BE /* Raid of Temples LauncherTests.xctest */,
+				CBBAF4DB276E1DCB00C131BE /* Raid of Temples LauncherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBBF9A10275F023F00BD319B /* Raid Of Temples Launcher */ = {
+		CBBAF4C2276E1DC800C131BE /* Raid of Temples Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				CBBF9A11275F023F00BD319B /* Raid_Of_Temples_LauncherApp.swift */,
-				CBBF9A13275F023F00BD319B /* ContentView.swift */,
-				CBBF9A15275F024400BD319B /* Assets.xcassets */,
-				CBBF9A1A275F024400BD319B /* Raid_Of_Temples_Launcher.entitlements */,
-				CBBF9A17275F024400BD319B /* Preview Content */,
+				CBBAF4C3276E1DC800C131BE /* AppDelegate.swift */,
+				CBBAF4C5276E1DC800C131BE /* ViewController.swift */,
+				CBBAF4C7276E1DCB00C131BE /* Assets.xcassets */,
+				CBBAF4C9276E1DCB00C131BE /* Main.storyboard */,
+				CBBAF4EE276E297800C131BE /* updatescontroller.swift */,
+				CBBAF4CC276E1DCB00C131BE /* Raid_of_Temples_Launcher.entitlements */,
 			);
-			path = "Raid Of Temples Launcher";
+			path = "Raid of Temples Launcher";
 			sourceTree = "<group>";
 		};
-		CBBF9A17275F024400BD319B /* Preview Content */ = {
+		CBBAF4D4276E1DCB00C131BE /* Raid of Temples LauncherTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBBF9A18275F024400BD319B /* Preview Assets.xcassets */,
+				CBBAF4D5276E1DCB00C131BE /* Raid_of_Temples_LauncherTests.swift */,
 			);
-			path = "Preview Content";
+			path = "Raid of Temples LauncherTests";
 			sourceTree = "<group>";
 		};
-		CBBF9A22275F024500BD319B /* Raid Of Temples LauncherTests */ = {
+		CBBAF4DE276E1DCB00C131BE /* Raid of Temples LauncherUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CBBF9A23275F024500BD319B /* Raid_Of_Temples_LauncherTests.swift */,
+				CBBAF4DF276E1DCB00C131BE /* Raid_of_Temples_LauncherUITests.swift */,
+				CBBAF4E1276E1DCB00C131BE /* Raid_of_Temples_LauncherUITestsLaunchTests.swift */,
 			);
-			path = "Raid Of Temples LauncherTests";
-			sourceTree = "<group>";
-		};
-		CBBF9A2C275F024500BD319B /* Raid Of Temples LauncherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CBBF9A2D275F024500BD319B /* Raid_Of_Temples_LauncherUITests.swift */,
-				CBBF9A2F275F024500BD319B /* Raid_Of_Temples_LauncherUITestsLaunchTests.swift */,
-			);
-			path = "Raid Of Temples LauncherUITests";
+			path = "Raid of Temples LauncherUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBBF9A0D275F023F00BD319B /* Raid Of Temples Launcher */ = {
+		CBBAF4BF276E1DC800C131BE /* Raid of Temples Launcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBBF9A33275F024500BD319B /* Build configuration list for PBXNativeTarget "Raid Of Temples Launcher" */;
+			buildConfigurationList = CBBAF4E5276E1DCB00C131BE /* Build configuration list for PBXNativeTarget "Raid of Temples Launcher" */;
 			buildPhases = (
-				CBBF9A0A275F023F00BD319B /* Sources */,
-				CBBF9A0B275F023F00BD319B /* Frameworks */,
-				CBBF9A0C275F023F00BD319B /* Resources */,
+				CBBAF4BC276E1DC800C131BE /* Sources */,
+				CBBAF4BD276E1DC800C131BE /* Frameworks */,
+				CBBAF4BE276E1DC800C131BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Raid Of Temples Launcher";
-			productName = "Raid Of Temples Launcher";
-			productReference = CBBF9A0E275F023F00BD319B /* Raid Of Temples Launcher.app */;
+			name = "Raid of Temples Launcher";
+			productName = "Raid of Temples Launcher";
+			productReference = CBBAF4C0276E1DC800C131BE /* Raid of Temples Launcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CBBF9A1E275F024500BD319B /* Raid Of Temples LauncherTests */ = {
+		CBBAF4D0276E1DCB00C131BE /* Raid of Temples LauncherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBBF9A36275F024500BD319B /* Build configuration list for PBXNativeTarget "Raid Of Temples LauncherTests" */;
+			buildConfigurationList = CBBAF4E8276E1DCB00C131BE /* Build configuration list for PBXNativeTarget "Raid of Temples LauncherTests" */;
 			buildPhases = (
-				CBBF9A1B275F024500BD319B /* Sources */,
-				CBBF9A1C275F024500BD319B /* Frameworks */,
-				CBBF9A1D275F024500BD319B /* Resources */,
+				CBBAF4CD276E1DCB00C131BE /* Sources */,
+				CBBAF4CE276E1DCB00C131BE /* Frameworks */,
+				CBBAF4CF276E1DCB00C131BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBBF9A21275F024500BD319B /* PBXTargetDependency */,
+				CBBAF4D3276E1DCB00C131BE /* PBXTargetDependency */,
 			);
-			name = "Raid Of Temples LauncherTests";
-			productName = "Raid Of Temples LauncherTests";
-			productReference = CBBF9A1F275F024500BD319B /* Raid Of Temples LauncherTests.xctest */;
+			name = "Raid of Temples LauncherTests";
+			productName = "Raid of Temples LauncherTests";
+			productReference = CBBAF4D1276E1DCB00C131BE /* Raid of Temples LauncherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CBBF9A28275F024500BD319B /* Raid Of Temples LauncherUITests */ = {
+		CBBAF4DA276E1DCB00C131BE /* Raid of Temples LauncherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBBF9A39275F024500BD319B /* Build configuration list for PBXNativeTarget "Raid Of Temples LauncherUITests" */;
+			buildConfigurationList = CBBAF4EB276E1DCB00C131BE /* Build configuration list for PBXNativeTarget "Raid of Temples LauncherUITests" */;
 			buildPhases = (
-				CBBF9A25275F024500BD319B /* Sources */,
-				CBBF9A26275F024500BD319B /* Frameworks */,
-				CBBF9A27275F024500BD319B /* Resources */,
+				CBBAF4D7276E1DCB00C131BE /* Sources */,
+				CBBAF4D8276E1DCB00C131BE /* Frameworks */,
+				CBBAF4D9276E1DCB00C131BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBBF9A2B275F024500BD319B /* PBXTargetDependency */,
+				CBBAF4DD276E1DCB00C131BE /* PBXTargetDependency */,
 			);
-			name = "Raid Of Temples LauncherUITests";
-			productName = "Raid Of Temples LauncherUITests";
-			productReference = CBBF9A29275F024500BD319B /* Raid Of Temples LauncherUITests.xctest */;
+			name = "Raid of Temples LauncherUITests";
+			productName = "Raid of Temples LauncherUITests";
+			productReference = CBBAF4DB276E1DCB00C131BE /* Raid of Temples LauncherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CBBF9A06275F023F00BD319B /* Project object */ = {
+		CBBAF4B8276E1DC800C131BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					CBBF9A0D275F023F00BD319B = {
+					CBBAF4BF276E1DC800C131BE = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					CBBF9A1E275F024500BD319B = {
+					CBBAF4D0276E1DCB00C131BE = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CBBF9A0D275F023F00BD319B;
+						TestTargetID = CBBAF4BF276E1DC800C131BE;
 					};
-					CBBF9A28275F024500BD319B = {
+					CBBAF4DA276E1DCB00C131BE = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CBBF9A0D275F023F00BD319B;
+						TestTargetID = CBBAF4BF276E1DC800C131BE;
 					};
 				};
 			};
-			buildConfigurationList = CBBF9A09275F023F00BD319B /* Build configuration list for PBXProject "Raid Of Temples Launcher" */;
+			buildConfigurationList = CBBAF4BB276E1DC800C131BE /* Build configuration list for PBXProject "Raid of Temples Launcher" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +211,36 @@
 				en,
 				Base,
 			);
-			mainGroup = CBBF9A05275F023F00BD319B;
-			productRefGroup = CBBF9A0F275F023F00BD319B /* Products */;
+			mainGroup = CBBAF4B7276E1DC800C131BE;
+			productRefGroup = CBBAF4C1276E1DC800C131BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBBF9A0D275F023F00BD319B /* Raid Of Temples Launcher */,
-				CBBF9A1E275F024500BD319B /* Raid Of Temples LauncherTests */,
-				CBBF9A28275F024500BD319B /* Raid Of Temples LauncherUITests */,
+				CBBAF4BF276E1DC800C131BE /* Raid of Temples Launcher */,
+				CBBAF4D0276E1DCB00C131BE /* Raid of Temples LauncherTests */,
+				CBBAF4DA276E1DCB00C131BE /* Raid of Temples LauncherUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBBF9A0C275F023F00BD319B /* Resources */ = {
+		CBBAF4BE276E1DC800C131BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBF9A19275F024400BD319B /* Preview Assets.xcassets in Resources */,
-				CBBF9A16275F024400BD319B /* Assets.xcassets in Resources */,
+				CBBAF4C8276E1DCB00C131BE /* Assets.xcassets in Resources */,
+				CBBAF4CB276E1DCB00C131BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBF9A1D275F024500BD319B /* Resources */ = {
+		CBBAF4CF276E1DCB00C131BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBF9A27275F024500BD319B /* Resources */ = {
+		CBBAF4D9276E1DCB00C131BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +250,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CBBF9A0A275F023F00BD319B /* Sources */ = {
+		CBBAF4BC276E1DC800C131BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBF9A14275F023F00BD319B /* ContentView.swift in Sources */,
-				CBBF9A12275F023F00BD319B /* Raid_Of_Temples_LauncherApp.swift in Sources */,
+				CBBAF4C6276E1DC800C131BE /* ViewController.swift in Sources */,
+				CBBAF4C4276E1DC800C131BE /* AppDelegate.swift in Sources */,
+				CBBAF4EF276E297800C131BE /* updatescontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBF9A1B275F024500BD319B /* Sources */ = {
+		CBBAF4CD276E1DCB00C131BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBF9A24275F024500BD319B /* Raid_Of_Temples_LauncherTests.swift in Sources */,
+				CBBAF4D6276E1DCB00C131BE /* Raid_of_Temples_LauncherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBF9A25275F024500BD319B /* Sources */ = {
+		CBBAF4D7276E1DCB00C131BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBF9A30275F024500BD319B /* Raid_Of_Temples_LauncherUITestsLaunchTests.swift in Sources */,
-				CBBF9A2E275F024500BD319B /* Raid_Of_Temples_LauncherUITests.swift in Sources */,
+				CBBAF4E2276E1DCB00C131BE /* Raid_of_Temples_LauncherUITestsLaunchTests.swift in Sources */,
+				CBBAF4E0276E1DCB00C131BE /* Raid_of_Temples_LauncherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CBBF9A21275F024500BD319B /* PBXTargetDependency */ = {
+		CBBAF4D3276E1DCB00C131BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBBF9A0D275F023F00BD319B /* Raid Of Temples Launcher */;
-			targetProxy = CBBF9A20275F024500BD319B /* PBXContainerItemProxy */;
+			target = CBBAF4BF276E1DC800C131BE /* Raid of Temples Launcher */;
+			targetProxy = CBBAF4D2276E1DCB00C131BE /* PBXContainerItemProxy */;
 		};
-		CBBF9A2B275F024500BD319B /* PBXTargetDependency */ = {
+		CBBAF4DD276E1DCB00C131BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBBF9A0D275F023F00BD319B /* Raid Of Temples Launcher */;
-			targetProxy = CBBF9A2A275F024500BD319B /* PBXContainerItemProxy */;
+			target = CBBAF4BF276E1DC800C131BE /* Raid of Temples Launcher */;
+			targetProxy = CBBAF4DC276E1DCB00C131BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CBBAF4C9276E1DCB00C131BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBAF4CA276E1DCB00C131BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		CBBF9A31275F024500BD319B /* Debug */ = {
+		CBBAF4E3276E1DCB00C131BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		CBBF9A32275F024500BD319B /* Release */ = {
+		CBBAF4E4276E1DCB00C131BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,59 +419,57 @@
 			};
 			name = Release;
 		};
-		CBBF9A34275F024500BD319B /* Debug */ = {
+		CBBAF4E6276E1DCB00C131BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Raid Of Temples Launcher/Raid_Of_Temples_Launcher.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Raid of Temples Launcher/Raid_of_Temples_Launcher.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Raid Of Temples Launcher/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-Of-Temples-Launcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-of-Temples-Launcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		CBBF9A35275F024500BD319B /* Release */ = {
+		CBBAF4E7276E1DCB00C131BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Raid Of Temples Launcher/Raid_Of_Temples_Launcher.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Raid of Temples Launcher/Raid_of_Temples_Launcher.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Raid Of Temples Launcher/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-Of-Temples-Launcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-of-Temples-Launcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		CBBF9A37275F024500BD319B /* Debug */ = {
+		CBBAF4E9276E1DCB00C131BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,17 +483,17 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-Of-Temples-LauncherTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-of-Temples-LauncherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raid Of Temples Launcher.app/Contents/MacOS/Raid Of Temples Launcher";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raid of Temples Launcher.app/Contents/MacOS/Raid of Temples Launcher";
 			};
 			name = Debug;
 		};
-		CBBF9A38275F024500BD319B /* Release */ = {
+		CBBAF4EA276E1DCB00C131BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,17 +507,17 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-Of-Temples-LauncherTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-of-Temples-LauncherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raid Of Temples Launcher.app/Contents/MacOS/Raid Of Temples Launcher";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raid of Temples Launcher.app/Contents/MacOS/Raid of Temples Launcher";
 			};
 			name = Release;
 		};
-		CBBF9A3A275F024500BD319B /* Debug */ = {
+		CBBAF4EC276E1DCB00C131BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,15 +531,15 @@
 					"@loader_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-Of-Temples-LauncherUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-of-Temples-LauncherUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Raid Of Temples Launcher";
+				TEST_TARGET_NAME = "Raid of Temples Launcher";
 			};
 			name = Debug;
 		};
-		CBBF9A3B275F024500BD319B /* Release */ = {
+		CBBAF4ED276E1DCB00C131BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -548,54 +553,54 @@
 					"@loader_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-Of-Temples-LauncherUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gameplex-Software.Raid-of-Temples-LauncherUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Raid Of Temples Launcher";
+				TEST_TARGET_NAME = "Raid of Temples Launcher";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBBF9A09275F023F00BD319B /* Build configuration list for PBXProject "Raid Of Temples Launcher" */ = {
+		CBBAF4BB276E1DC800C131BE /* Build configuration list for PBXProject "Raid of Temples Launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBBF9A31275F024500BD319B /* Debug */,
-				CBBF9A32275F024500BD319B /* Release */,
+				CBBAF4E3276E1DCB00C131BE /* Debug */,
+				CBBAF4E4276E1DCB00C131BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBBF9A33275F024500BD319B /* Build configuration list for PBXNativeTarget "Raid Of Temples Launcher" */ = {
+		CBBAF4E5276E1DCB00C131BE /* Build configuration list for PBXNativeTarget "Raid of Temples Launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBBF9A34275F024500BD319B /* Debug */,
-				CBBF9A35275F024500BD319B /* Release */,
+				CBBAF4E6276E1DCB00C131BE /* Debug */,
+				CBBAF4E7276E1DCB00C131BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBBF9A36275F024500BD319B /* Build configuration list for PBXNativeTarget "Raid Of Temples LauncherTests" */ = {
+		CBBAF4E8276E1DCB00C131BE /* Build configuration list for PBXNativeTarget "Raid of Temples LauncherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBBF9A37275F024500BD319B /* Debug */,
-				CBBF9A38275F024500BD319B /* Release */,
+				CBBAF4E9276E1DCB00C131BE /* Debug */,
+				CBBAF4EA276E1DCB00C131BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBBF9A39275F024500BD319B /* Build configuration list for PBXNativeTarget "Raid Of Temples LauncherUITests" */ = {
+		CBBAF4EB276E1DCB00C131BE /* Build configuration list for PBXNativeTarget "Raid of Temples LauncherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBBF9A3A275F024500BD319B /* Debug */,
-				CBBF9A3B275F024500BD319B /* Release */,
+				CBBAF4EC276E1DCB00C131BE /* Debug */,
+				CBBAF4ED276E1DCB00C131BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CBBF9A06275F023F00BD319B /* Project object */;
+	rootObject = CBBAF4B8276E1DC800C131BE /* Project object */;
 }

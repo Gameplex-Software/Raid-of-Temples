@@ -1,14 +1,14 @@
 //
-//  Raid_Of_Temples_LauncherTests.swift
-//  Raid Of Temples LauncherTests
+//  Raid_of_Temples_LauncherTests.swift
+//  Raid of Temples LauncherTests
 //
-//  Created by Tristan Poland on 12/6/21.
+//  Created by Tristan Poland on 12/18/21.
 //
 
 import XCTest
-@testable import Raid_Of_Temples_Launcher
+@testable import Raid_of_Temples_Launcher
 
-class Raid_Of_Temples_LauncherTests: XCTestCase {
+class Raid_of_Temples_LauncherTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
