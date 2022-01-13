@@ -12,3 +12,15 @@ Launchers are built from scratch for each operating system to provide the best p
 
 ## We are looking for volenteers! join us in developing software!
 ### Further your skills and expand the projects you love by joining us in making cutting edge cdoe, graphics, and gameplay.
+
+
+## Here are the platforms we will be supporting
+Windows PC
+Sony PS4 and 5
+Xbox One
+Mac OS X
+IOS
+Android
+VR
+Linux
+Steam OS
